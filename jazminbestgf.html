@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Password</title>
+ <style>
+  body {
+   background-color: lightpink;
+   padding: 30px;
+  }
+ </style>
+ <script>
+  function checkPassword() {
+   var password = document.getElementById("passwordBox");
+   var passwordText = password.value;
+   if(passwordText == "09/30/22") {
+    return true;
+   }
+   alert("Nuh UHH! your not jazmin bucko!");
+   return false;
+   }
+ </script>
+</head>
+<body>
+ <p style="font-size: 30pt;"> Is this REALLY jazmin?</p>
+  <p> answer this final question to prove your my glorious gf</p> 
+ <p>what was the date of our first kiss ( 00/00/00 format please)</p>
+ <p> </p>
+ <p>Password:<input id="passwordBox" type="password"/></p>
+ <a href="HiJazILoveYou.html" onclick="return checkPassword();">
+  enter password here
+ </a>
+</body>
+</html>
